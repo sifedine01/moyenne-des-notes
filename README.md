@@ -1,2 +1,2 @@
 # moyenne-des-notes
-application pour calculer la moyenne de notes de la module
+application pour calculer la moyenne des notes de la module
