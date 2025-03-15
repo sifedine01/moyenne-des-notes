@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <label for="cc1">note de controle 1</label>
+        <input type="number" name="cc1" id="cc1" min="0" max="20">
+        <label for="cc2">note de controle 2</label>
+        <input type="number" name="cc2" id="cc2" min="0" max="20">
+        <label for="cc3">note de controle 3</label>
+        <input type="number" name="cc3" id="cc3" min="0" max="20">
+        <label for="exame">Examen fin  de module(sur 40!)</label>
+        <input type="number" name="exame" id="exame" min="0" max="40">
+        <button onclick="calculer()">Calculer</button>
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" id="alert-red">
+        <p>Vous n'avez pas validé le module : <span id="nonValide"></span></p>
+    </div>
+    <div class="alert alert-primary" id="alert-green">
+        <p>Vous avez validé le module : <span id="Valide"></span></p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
